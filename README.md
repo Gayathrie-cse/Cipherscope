@@ -1,16 +1,18 @@
 🔐 CipherScope — Encrypted Communication Behavior Analysis
 
 📌 Overview
+
 CipherScope is a cyber forensics prototype designed to analyze encrypted communication behavior without accessing or decrypting message content. The project focuses on extracting meaningful forensic insights from network traffic metadata such as packet timing, frequency, and burst intensity.
 Instead of breaking encryption, CipherScope analyzes behavioral patterns in encrypted traffic to identify anomalous or coordinated communication activity in a privacy-preserving manner.
 
 🚀 Features
-📡 Captures encrypted network traffic using Wireshark
-🔍 Extracts packet metadata from PCAP/PCAPNG files
-📊 Performs packet frequency and burst analysis
-⚠️ Detects coordinated or high-intensity communication patterns
-📈 Generates time-based traffic visualizations
-🔒 Privacy-safe analysis without message decryption
+
+>📡 Captures encrypted network traffic using Wireshark
+>🔍 Extracts packet metadata from PCAP/PCAPNG files
+>📊 Performs packet frequency and burst analysis
+>⚠️ Detects coordinated or high-intensity communication patterns
+>📈 Generates time-based traffic visualizations
+>🔒 Privacy-safe analysis without message decryption
 
 🧠 Core Idea
 Modern communication platforms use strong encryption, making direct content inspection difficult for investigators and security teams. CipherScope addresses this challenge by focusing on behavioral analysis instead of content analysis.
